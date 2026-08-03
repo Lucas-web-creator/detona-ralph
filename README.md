@@ -1,56 +1,27 @@
-# ⚡ ALYZ & ARKHE LOGOS
+## 🎮 Sobre o Jogo: Deotna Ralph
 
-> **Engenharia de Software, Arquitetura Digital e Ecossistemas de Aprendizado.**
+O **Deotna Ralph** é um jogo web desenvolvido do zero utilizando **JavaScript puro, HTML5 e CSS3**. O projeto foi concebido para aplicar conceitos fundamentais de desenvolvimento web, manipulação dinâmica do DOM, loops de renderização e controle de estado em tempo real, sem a dependência de engines ou bibliotecas externas.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Status: In Development](https://img.shields.io/badge/Status-In%20Development-orange.svg)]()
-[![Architecture: SPA Template](https://img.shields.io/badge/Architecture-SPA%20Template-green.svg)]()
+### 🕹️ Mecânicas e Funcionalidades
+* **Game Loop Nascido no JS:** Controle de atualização de quadros (frames), colisões e renderização lógica em tempo real.
+* **Interface Dinâmica:** Estilização responsiva via CSS3 com manipulação de classes e estados direto pelo script.
+* **Controles do Jogador:** Captura de eventos de teclado/mouse para movimentação e ações dos personagens.
+* **Placar e Pontuação:** Sistema de contagem de pontos e gerenciamento de estado (Game Over / Restart).
 
----
+### 🛠️ Tecnologias Utilizadas
+* **HTML5:** Estruturação semântica do cenário e elementos de tela.
+* **CSS3:** Renderização visual, posicionamento dos elementos e animações.
+* **JavaScript (ES6+):** Lógica do jogo, manipulação do DOM, detecção de eventos e física básica.
 
-## 📌 Visão Geral
+### 🚀 Como Jogar
+1. Clone o repositório ou baixe os arquivos do projeto.
+2. Abra o arquivo `index.html` em qualquer navegador moderno.
+3. Utilize os comandos na tela (ou teclas de atalho) para controlar o Ralph e acumular a maior pontuação possível.
 
-O **ALYZ** é uma iniciativa focada em **estruturação e engenharia digital**, projetada sobre uma arquitetura minimalista, escalável e focada em alto desempenho. O projeto adota a estratégia de **Single Page Application (SPA) modular**, na qual múltiplos serviços compartilham uma mesma estrutura operacional de alto nível, garantindo consistência visual, reuso de código e baixo acoplamento.
+<img width="555" height="770" alt="image" src="https://github.com/user-attachments/assets/64b51c51-2202-4328-af67-f9905adf5e2b" />
+<img width="557" height="765" alt="image" src="https://github.com/user-attachments/assets/cfdd0dbc-ccc4-4d62-9871-d9723fc792ab" />
+<img width="554" height="770" alt="image" src="https://github.com/user-attachments/assets/884052d6-8dc6-45a7-8277-45ae2313edfb" />
+<img width="551" height="767" alt="image" src="https://github.com/user-attachments/assets/f645b8db-4f42-41c0-8718-73af7d2f097c" />
 
-Integrado ao ALYZ, o **ARKHE LOGOS** atua como o motor de conhecimento e computação do ecossistema, organizando domínios complexos em módulos especializados.
 
----
 
-## 🧱 Arquitetura e Engenharia de Software
-
-### 1. Modelo Operacional (ALYZ Core)
-Diferente de sistemas legados de múltiplas páginas rígidas, o ALYZ utiliza um template de estrutura única acoplado a um roteamento dinâmico. 
-* **Padronização:** Layouts, regras de estado e transições de serviço compartilham o mesmo contrato operacional.
-* **Consistência Visual:** Design system alinhado a diretrizes de tipografia e espaçamento rigorosos.
-* **Escalabilidade:** Novos serviços são acoplados à infraestrutura existente sem redundância de código.
-
-### 2. Módulos ARKHE LOGOS
-O ecossistema é fracionado em núcleos de conhecimento e execução:
-
-* 🗣️ **VERBUM:** Engenharia de linguagem e sistemas de tradução/idiomas.
-* 🧠 **COGNIT:** Processamento cognitivo, análise lógica e tomada de decisão.
-* 📐 **MATHESIS:** Modelagem matemática, algoritmos quantitativos e computação central.
-* 📏 **MODULOR:** Proporção, frameworks de aprendizado e estruturação de interfaces.
-* 🏗️ **VITRU:** Engenharia de arquitetura, padrões estruturais de código e design system.
-* ⬛ **QUADRA:** Organização espacial, gerenciamento de dados e matrizes.
-* 💡 **NOUS:** Inteligência abstrata, síntese conceitual e estratégia.
-* 🏋️ **ATLHOS:** Métricas de desempenho, execução prática e acompanhamento de rotinas.
-
----
-
-## 🛠️ Tecnologias e Ferramentas
-
-* **Core:** HTML5, CSS3 Moderno (Variables, Flexbox, Grid), JavaScript (ES6+).
-* **Arquitetura:** SPA Pattern, Component-Driven Design.
-* **Design & Asset Prototyping:** Canva Engine, Typographic Systems (*Tan Headline* Display).
-* **CLI & Tooling:** Claude CLI, PowerShell, Git.
-
----
-
-## 📂 Estrutura do Diretório
-
-```text
-.
-├── index.html  
-└── script.js      
-└── style.css 
