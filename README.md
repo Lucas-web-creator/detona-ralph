@@ -51,13 +51,6 @@ O ecossistema é fracionado em núcleos de conhecimento e execução:
 
 ```text
 .
-├── assets/
-│   ├── css/          # Estilos globais e componentes reutilizáveis
-│   ├── img/          # SVG de alta precisão e recursos visuais
-│   └── js/           # Módulos de lógica, roteamento e controle de estado
-├── modules/
-│   ├── verbum/       # Núcleo de Idiomas e Sintaxe
-│   ├── cognos/       # Núcleo de Lógica e IA
-│   └── mathesis/     # Núcleo Computacional
-├── index.html        # Ponto de entrada da SPA
-└── README.md         # Documentação técnica
+├── index.html  
+└── script.js      
+└── style.css 
